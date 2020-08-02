@@ -1,0 +1,35 @@
+{
+  "name": "maksimru/composer-lazy-repository",
+  "description": "Sample demo of composer lazy repository",
+  "keywords": [
+    "library"
+  ],
+  "type": "library",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Maksim Martianov",
+      "email": "maxmru@yandex.ru"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://lazyrepository.imfast.io/composer/demo/"
+    },
+    {
+      "packagist": false
+    }
+  ],
+  "require": {
+    "guzzlehttp/guzzle": "5.3.4"
+  },
+  "require-dev": {
+  },
+  "autoload": {
+  },
+  "scripts": {
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
