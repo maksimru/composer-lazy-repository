@@ -1,4 +1,4 @@
-# Demo Composer repository (Lazy mode)
+# Demo Composer Registry (Lazy mode)
 
 The repository is acts as composer / packagist package server and runs in lazy mode
 
