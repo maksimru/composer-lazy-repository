@@ -1,0 +1,6 @@
+{
+  "packages" : {
+  },
+  "search" : "https://lazyrepository.imfast.io/composer/demo/search.json?q=%query%&type=%type%",
+  "providers-lazy-url" : "https://lazyrepository.imfast.io/composer/demo/p/%package%.json"
+}
