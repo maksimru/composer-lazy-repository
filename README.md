@@ -1,8 +1,8 @@
 # Demo Composer Registry (Lazy mode)
 
-The repository is acts as composer / packagist package server and runs in lazy mode
+The repository acts as composer / packagist registry running in lazy mode
 
-Repo url: https://lazyrepository.imfast.io/composer/demo/
+Composer registry url: https://lazyrepository.imfast.io/composer/demo/
 
 It contains binary (ZIP) of exactly 1 package and its dependencies: guzzlehttp/guzzle "5.3.4", however more versions are available in package feed
 
