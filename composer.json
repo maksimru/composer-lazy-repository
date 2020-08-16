@@ -22,7 +22,7 @@
     }
   ],
   "require": {
-    "guzzlehttp/guzzle": "5.3.4"
+    "guzzlehttp/guzzle": "7.0.1"
   },
   "require-dev": {
   },
