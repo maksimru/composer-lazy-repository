@@ -43,6 +43,48 @@
           }
         }
       },
+      "5.99.99" : {
+        "name" : "guzzlehttp/guzzle",
+        "version" : "5.99.99",
+        "description" : "Guzzle is a PHP HTTP client library and framework for building RESTful web service clients",
+        "keywords" : [ "framework", "curl", "http", "rest", "http client", "client", "web service" ],
+        "homepage" : "http://guzzlephp.org/",
+        "license" : [ "MIT" ],
+        "authors" : [ {
+          "name" : "Michael Dowling",
+          "email" : "mtdowling@gmail.com",
+          "homepage" : "https://github.com/mtdowling"
+        } ],
+        "source" : {
+          "type" : "git",
+          "url" : "https://github.com/guzzle/guzzle.git",
+          "reference" : "b87eda7a7162f95574032da17e9323c9899cb6b2"
+        },
+        "dist" : {
+          "type" : "zip",
+          "url" : "https://lazyrepository.imfast.io/composer/demo/vcs-dists/zip/guzzle/guzzle/b87eda7a7162f95574032da17e9323c9899cb6b2",
+          "reference" : "b87eda7a7162f95574032da17e9323c9899cb6b2",
+          "shasum" : ""
+        },
+        "type" : "library",
+        "time" : "2019-10-30T09:32:00+00:00",
+        "require" : {
+          "php" : ">=5.4.0",
+          "guzzlehttp/ringphp" : "^1.1",
+          "react/promise" : "^2.2"
+        },
+        "uid" : 3339489,
+        "version_normalized" : "5.99.99.0",
+        "require-dev" : {
+          "ext-curl" : "*",
+          "phpunit/phpunit" : "^4.0"
+        },
+        "autoload" : {
+          "psr-4" : {
+            "GuzzleHttp\\" : "src/"
+          }
+        }
+      },
       "7.0.0-beta.1" : {
         "name" : "guzzlehttp/guzzle",
         "version" : "7.0.0-beta.1",
